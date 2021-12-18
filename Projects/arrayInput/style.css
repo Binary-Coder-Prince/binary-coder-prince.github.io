@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.heading {
+    color: orangered;
+    font-weight: 900;
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin: 2rem auto;
+    font-size: 5rem;
+    text-shadow: 0.5rem 0.5rem 2rem black;
+}
+
+#cityInp {
+    color: cadetblue;
+    height: 2rem;
+    width: 15rem;
+    display: block;
+    margin: 0.9em auto;
+    border-radius: .4rem;
+    box-shadow: .3rem .3rem 15px black;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.btns {
+    height: 2em;
+    width: 9em;
+    padding: 2px 3px;
+    text-align: center;
+    margin: 10px;
+}
+
+.console {
+    height: 300px;
+    width: 700px;
+    position: fixed;
+    left: 25%;
+    text-align: center;
+    border: 5px double black;
+    bottom: 0;
+    background-color: cyan;
+}
+
+.console h1 {
+    border-bottom: 5px double black;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.consoleChild p {
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1.75px 1.75px 2px black, -1.75px -1.75px 2px black;
+    margin: 10px 15px;
+    width: fit-content;
+}
+
+.outClearer {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+#clearOut {
+    height: fit-content;
+    width: fit-content;
+    padding: 4px 7px;
+    background-color: black;
+    color: white;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    font-weight: bold;
+    display: none;
+}
+
+#clearOut:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    transition: all 0.4s;
+}
+
+#clearOut:active {
+    color: white;
+    background-color: black;
+    border: 2px solid yellow;
+    transition: all 0.1.5s;
+}
