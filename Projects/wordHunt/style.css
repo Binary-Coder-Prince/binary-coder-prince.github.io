@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+}
+
+.headingContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 30vh;
+    width: 100%;
+}
+
+.headingContainer h1 {
+    text-shadow: .3rem .3rem 5px yellow;
+    color: crimson;
+    font-size: 3rem;
+}
+
+.headingContainer h3 {
+    font-size: 1.5rem;
+    margin: 50px auto;
+}
+
+.headingContainer h3 span {
+    color: cornflowerblue;
+    text-shadow: 0 0 .15rem black;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 2px yellow;
+    border: 2px solid yellow;
+}
+
+
+
+
+/* Game starting */
+
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameContainer input[type=button] {
+    height: 3rem;
+    width: 10rem;
+    font-size: x-large;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border: 2px solid black;
+    color: darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gameContainer input[type=button]:active {
+    background-color: rgb(64, 126, 241);
+    text-shadow: 0 0 3px yellow;
+    color: white;
+    transition: all .125s linear;
+}
+
+
+
+/* Input area */
+
+.inputContainer {
+    padding: 10px;
+    margin: 40px;
+    border: 5px dashed cornflowerblue;
+}
+
+.inputContainer input {
+    height: 2rem;
+    width: 2rem;
+    margin: 7.5px;
+    font-size: 20px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+
+/* Answer box */
+.ansBox button {
+    color: darkblue;
+    height: 2rem;
+    width: 8rem;
+    position: absolute;
+    left: 50%;
+    border: 2px dashed brown;
+    display: none;
+}
+
+
+.ansBox h4 {
+    display: none;
+}
+
+#winLog {
+    display: none;
+}
